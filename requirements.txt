@@ -1,0 +1,6 @@
+pandas 
+numpy
+django
+django-oscar[sorl-thumbnail]
+django-oscar-api==2.1.1
+pycountry
