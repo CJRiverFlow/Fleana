@@ -1,6 +1,9 @@
 pandas 
 numpy
-django
+six
+pycountry
+#django==3.0b1
+django==2.2
 django-oscar[sorl-thumbnail]
 django-oscar-api==2.1.1
-pycountry
+django-oscar-paypal

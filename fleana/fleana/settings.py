@@ -79,6 +79,7 @@ INSTALLED_APPS = [
     'treebeard',
     'sorl.thumbnail',   # Default thumbnail backend, can be replaced
     'django_tables2',
+    'paypal'
 ]
 
 SITE_ID = 1
@@ -190,4 +191,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+#PAYPAL settings
+PAYPAL_API_USERNAME = 'cjosue.flores@gmail.com'
+PAYPAL_API_PASSWORD = '123456789'
+PAYPAL_API_SIGNATURE = '...'
 
